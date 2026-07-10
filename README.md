@@ -1,25 +1,25 @@
-📊 Student Analytics & Ranking System
+# 📊 Student Analytics & Ranking System
 
-A console-based Student Analytics & Ranking System developed in C++ using Object-Oriented Programming (OOP) and the Standard Template Library (STL).
+A console-based **Student Analytics & Ranking System** built in **C++** using **Object-Oriented Programming (OOP)** and the **Standard Template Library (STL)**.
 
-This project manages student records, performs analytics, generates rankings, and demonstrates the use of efficient STL containers and algorithms to solve real-world data processing problems.
+This project demonstrates how STL containers and algorithms can be used to efficiently manage student records, generate rankings, perform analytics, and process data in a modular console application.
 
 ---
 
-✨ Features
+## ✨ Features
 
-- ➕ Add new students
+- ➕ Add new student records
 - 🔍 Search students by name (case-insensitive)
 - ✏️ Update student marks
 - 📋 Display all student records
-- 🏆 Generate student rankings
-- 📈 Display student analytics
-- 📊 Show score distribution
-- ✅ Prevent duplicate student entries using normalized names
+- 🏆 Generate rankings using custom sorting
+- 📈 View student analytics
+- 📊 Display score distribution
+- ✅ Prevent duplicate student entries through name normalization
 
 ---
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 - C++
 - Object-Oriented Programming (OOP)
@@ -27,36 +27,33 @@ This project manages student records, performs analytics, generates rankings, an
 
 ---
 
-📚 Concepts Implemented
+## 📚 Concepts Demonstrated
 
-OOP
-
-- Classes and Objects
+### Object-Oriented Programming
+- Classes & Objects
 - Constructors
-- Getters
 - Encapsulation
+- Getter Functions
 
-STL
-
-- "unordered_map"
-- "vector"
+### STL
+- `unordered_map`
+- `vector`
+- `sort()`
 - Custom Comparator
-- "sort()"
 
-Programming Concepts
-
+### Programming Concepts
 - Data Normalization
 - Case-Insensitive Searching
-- Custom Sorting Logic
+- Custom Sorting
 - Frequency Analysis
 - Input Validation
 - Modular Programming
 
 ---
 
-🏆 Ranking Rules
+## 🏆 Ranking Rules
 
-Students are ranked according to the following priority:
+Students are ranked using the following priority:
 
 1. Higher marks
 2. Shorter name length
@@ -64,20 +61,35 @@ Students are ranked according to the following priority:
 
 ---
 
-📈 Analytics
+## 📈 Analytics
 
 The application provides:
 
-- Top Scorer
-- Lowest Scorer
-- Average Marks
-- Total Student Records
-- Score Distribution
+- 🥇 Top Scorer
+- 📉 Lowest Scorer
+- 📊 Average Marks
+- 👥 Total Student Records
+- 📈 Score Distribution
 
 ---
 
-📂 Project Structure
+## ⚡ Time Complexity
 
+| Operation | Complexity |
+|-----------|------------|
+| Add Student | O(1) average |
+| Search Student | O(1) average |
+| Update Marks | O(1) average |
+| Display Students | O(n) |
+| Generate Rankings | O(n log n) |
+| Analytics | O(n) |
+| Score Distribution | O(n) |
+
+---
+
+## 📂 Project Structure
+
+```text
 Student-Analytics-Ranking-System/
 │
 ├── main.cpp
@@ -90,54 +102,80 @@ Student-Analytics-Ranking-System/
 │
 └── screenshots/
     ├── main_menu.png
-    ├── add_student.png
+    ├── add_students.png
+    ├── display_students.png
     ├── rankings.png
     ├── analytics.png
     └── score_distribution.png
+```
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
-Screenshots demonstrating the application's functionality are available in the screenshots/ folder.
+### Main Menu
+![Main Menu](screenshots/main_menu.png)
 
-- Main Menu
-- Add Student
-- Student Rankings
-- Student Analytics
-- Score Distribution
+### Add Students
+![Add Students](screenshots/add_students.png)
+
+### Display Students
+![Display Students](screenshots/display_students.png)
+
+### Rankings
+![Rankings](screenshots/rankings.png)
+
+### Analytics
+![Analytics](screenshots/analytics.png)
+
+### Score Distribution
+![Score Distribution](screenshots/score_distribution.png)
 
 ---
 
-▶️ How to Build & Run
+## ▶️ Building & Running
 
-Compile the project using any C++17 compatible compiler.
+Compile the project using **g++**:
 
+```bash
 g++ main.cpp student_analytics.cpp -o StudentAnalytics
+```
 
 Run the executable:
 
+### Windows
+
+```bash
+StudentAnalytics.exe
+```
+
+### Linux/macOS
+
+```bash
 ./StudentAnalytics
+```
 
 ---
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
-This project helped strengthen practical understanding of:
+This project strengthened my understanding of:
 
-- STL container selection
-- Custom sorting using comparators
-- Efficient data management
 - Object-Oriented Programming
-- Input validation
-- Modular program design
-- Console application development
+- STL Containers
+- Custom Comparators
+- Sorting Algorithms
+- Data Processing
+- Data Normalization
+- Console Application Development
+- Modular Programming
+- Input Validation
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-- Store student records in files for persistent storage
+- Store student records in files (persistent storage)
 - Assign unique Student IDs
 - Export reports to CSV
 - Improve console formatting
@@ -146,14 +184,16 @@ This project helped strengthen practical understanding of:
 
 ---
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
-See the LICENSE file for details.
+See the **LICENSE** file for more information.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Aryan
+**Aryan**
+
+GitHub: https://github.com/Aryan544-arch/student-analytics-ranking-system
