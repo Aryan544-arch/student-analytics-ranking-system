@@ -9,16 +9,6 @@
 #include <cctype>
 #include <iomanip>
 
-void normalizedName(std::string &);
-void showMainMenu();
-void addStudents(std::unordered_map<std::string, double> &);
-void displayAllStudents(std::unordered_map<std::string, double> &);
-void searchStudent(std::unordered_map<std::string, double> &);
-void updateMarks(std::unordered_map<std::string, double> &);
-void showRankings(std::unordered_map<std::string, double> &,std::vector<Analytics>&);
-void showAnalytics(std::unordered_map<std::string, double> &);
-void scoreDistribution(std::unordered_map<std::string, double> &);
-
 class Analytics
 {
     std::string name;
@@ -69,5 +59,18 @@ public:
         }
     }
 };
+
+
+void normalizedName(std::string &);
+void showMainMenu();
+void addStudents(std::unordered_map<std::string, double> &);
+void displayAllStudents(std::unordered_map<std::string, double> &);
+void searchStudent(std::unordered_map<std::string, double> &);
+void updateMarks(std::unordered_map<std::string, double> &);
+void showRankings(std::unordered_map<std::string, double> &,std::vector<Analytics>&);
+void showAnalytics(std::unordered_map<std::string, double> &);
+void scoreDistribution(std::unordered_map<std::string, double> &);
+
+
 
 #endif
